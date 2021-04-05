@@ -72,6 +72,7 @@ ul{
 
 /*Objective*/
 .objective p{
+    margin: 0 auto 10pt auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
 }
