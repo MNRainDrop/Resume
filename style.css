@@ -1,40 +1,21 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color:lightgray;
-    
+    background-color: lightgray;
     font-family: 'Merriweather', serif;
 }
-h1{
-    margin: 0;
+
+h1 {
     font-weight: 400;
-}
-h2{
-    margin: 0;
-    font-weight: 400;
-    display: inline-block;
+    font-size: 1.5rem;
+    display: inline;
     color: dodgerblue;
 }
-h4{
-    margin: 0;
-    font-weight: 700;
-}
-ul{
+
+ul {
     margin: 10px;
 }
 
-.box{
-    background-color: white;
-    width: 50rem;
-    padding: 3rem;
-    margin: 1rem auto;
-    border-radius: 0.5rem;
-}
-
-.fas{
-    color: black;
-    font-size: 20px;
-}
 a{
     color: black;
 }
@@ -51,90 +32,49 @@ a:visited{
     color:grey;
 }
 
-
-
-/*Header*/
-.header{
-    display: grid;
-    align-items: center;
-    grid-template-columns: 25% 25% 50%;
-}
-.header-left{
-    display: grid;
-    grid-column: 1;
-}
-.first-name{
-    font-weight: 700;
-    margin: 0;
-}
-.last-name{
-    font-weight: 200;
-    margin: 0;
-}
-
-.header-middle{
-    display: grid;
-    grid-column: 2;
-}
-
-.header-right{
-    width: 100%;
-    display: grid;
-    grid-column: 3;
-    justify-items: end;
-}
-.header-right p{
-    font-family: 'Open Sans', sans-serif;
-    display: inline-block;
-    margin: 0;
-}
-.header-right .fas{
+.fas {
     color: black;
     font-size: 20px;
 }
 
-/*Objective*/
-.objective p{
+.box {
+    background-color: white;
+    width: 50rem;
+    padding: 3rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    align-items: center;
+}
+
+.name {
+    font-size: 2rem;
+}
+.first-name {
+    font-weight: 700;
+}
+.last-name {
+    font-weight: 200;
+}
+
+.information {
+    width: 100%;
+    justify-items: end;
+    font-family: 'Open Sans', sans-serif;
+    text-align: end;
+    font-size: 1rem;
+}
+
+.address p{
+    display: inline;
+}
+
+.category p{
     margin: 0 auto 10pt auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
-}
-
-/*Experience*/
-.experience .time{
-    margin: 0;
-    font-size: 9pt;
-    font-family: 'Open Sans', sans-serif;
-}
-.experience .description{
-    font-size: 10pt;
-    margin: 0 auto 10pt auto;
-}
-
-/*Education*/
-.school-achievements{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10pt;
-    margin: 0 auto 10pt auto;
-}
-
-/*Skills*/
-.skill-list{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
-    margin: 0 auto 10pt auto;
-}
-
-/*Awards*/
-.award-list{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10pt;
-    margin: 0 auto 10pt auto;
-}
-.award-list .title{
-    font-size: 12pt;
-    margin: 0;
-}
-.award-list p{
-    margin: 0;
 }
